@@ -1,0 +1,39 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_bin/
+_vendor/
+
+# Compiled Go files
+*.exe
+*.test
+*.prof
+
+# Logs and debug files
+*.log
+*.log.*
+*.test
+*.prof
+
+# Temporary files
+*.tmp
+
+# Output of `go tool cover`
+*.out
+
+# Project-specific binaries
+myapp
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Dependency directories (specific to Go)
+/go/
+/pkg/
+
+# Metadata for Mac
+.DS_Store
